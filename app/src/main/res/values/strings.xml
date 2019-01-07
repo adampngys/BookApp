@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BookApp</string>
+    <string name="label1">BookID: </string>
+    <string name="label2">Title: </string>
+    <string name="label3">CategoryID: </string>
+    <string name="label4">ISBN: </string>
+    <string name="label5">Author: </string>
+    <string name="label6">Stock: </string>
+    <string name="label7">Price: </string>
+    <string name="savelabel">Save</string>
+    <string name="cancellabel">Cancel</string>
+</resources>

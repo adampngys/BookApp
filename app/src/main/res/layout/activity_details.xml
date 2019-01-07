@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewLabel1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label1" />
+
+            <TextView
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="10pt"
+                android:editable="false"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewLabel2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label2" />
+
+            <TextView
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="10pt" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewLabel3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label3" />
+
+            <TextView
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="10pt" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewLabel4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label4" />
+
+            <TextView
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="10pt" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewLabel5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label5" />
+
+            <TextView
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="10pt" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewLabel6a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label6" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="10pt" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewLabel7a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label7" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="10pt" />
+
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageViewc"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="Book Cover" />
+
+</LinearLayout>
